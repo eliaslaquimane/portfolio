@@ -8,56 +8,269 @@
         <title>Elias Laquimane - portfolio</title>
         <!-- incorporate css link to style of page -->
         <link rel="stylesheet" href="./css/base.css"/>
+        <link rel="stylesheet" href="./css/home.css"/>
     </head>
     <body class="root">
         <!-- The structure of the portfolio that I want to follow.
          The body of the portfolio will contain the: Container, Header, Main, and Footer. -->
-        <div class="container">        
-            <header>
-                <img src="#" alt="Elias Laquimane Avatar"/>
+        <header>
+            <nav>
                 <ul>
-                    <li><a id="home">Home</a></li>
-                    <li><a id="about">About me</a></li>
-                    <li><a id="portfolio">Portfolio</a></li>
-                    <li><a id="skills">Skills</a></li>
-                    <li><a id="career">Career</a></li>
-                    <li><a id="referencial">Referencial</a></li>
-                    <li><a id="contacts">Contacts</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#career">Career</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
                 </ul>
-            </header>
-
+            </nav>
+        </header>
+         <div class="container">        
             <!-- content block: home, about-me, portfolio, skills, career, referencial, contacts -->
              <main>
                 <!-- Home -->
                 <section id="home">
-
+                    <div class="home-content">
+                        <!-- Left content -->
+                        <div class="home-content-left">
+                            <div class="name-and-title">
+                                <h1>Elias Laquimane</h1>
+                                <h6>Web Developer</h6>
+                            </div>
+                            <div class="social-media">
+                                <img src="./img/linkedin.png" alt="Elias Laquimane LinkedIn account"/>
+                                <img src="./img/github.png" alt="Elias Laquimane GitHub account"/>
+                            </div>
+                        </div>
+                        <!-- Center content -->
+                         <div class="home-content-center">
+                            <img class="profile-image" src="./img/favicon.png" alt="Elias Laquimane Profile"/>
+                         </div>
+                         <!-- Right content -->
+                         <div class="home-content-right">
+                            <a href="#">Donwload CV</a>
+                         </div>
+                    </div>
+                    <!-- Overview  -->
+                    <div class="home-content-overview">
+                        <div class="home-content-overview-top">
+                            <div class="home-content-cards">
+                                <div class="home-content-card">
+                                    <img src="#" alt="Dev icon"/>
+                                    <h3>4 years as a</h3>
+                                    <h2>Web Developer</h2>
+                                </div>
+                            </div>
+                            <div class="home-content-cards">
+                                <div class="home-content-card">
+                                    <img src="#" alt="Design icon"/>
+                                    <h3>3 years of</h3>
+                                    <h2>work</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="home-content-overview-bottom">
+                            <div class="home-content-overview-bottom-left">
+                                <h3>Developer</h3>
+                                <h2>Front-end</h2>
+                            </div>
+                            <div class="home-content-overview-bottom-right">
+                                <h3>4 projects and</h3>
+                                <h2>Experiences</h2>
+                            </div>
+                        </div>
+                    </div>
                 </section>
                 <!-- About me -->
                 <section id="about">
-
+                    <div class="about-content">
+                        <div class="about-content-left">
+                            <img src="./img/elias-laquimae.png" alt="Elias Alberto Laquimane"/>
+                        </div>
+                        <div class="about-content-right">
+                            <h1>Elias Alberto Laquimane</h1>
+                            <p>I am a web developer with over 4 years of experience creating intuitive interfaces. 
+                               I hold a Bachelor's degree in Chemistry Education from Rovuma University in Nampula, Mozambique. 
+                               My primary focus is Front-end development using HTML, CSS, JavaScript, React Native, and TypeScript. 
+                               I also work as a UI Designer when needed, utilizing tools like Figma, Adobe XD, and Lunacy to create user-centered solutions. 
+                               I am continuously seeking to expand my knowledge and deliver end-to-end value. 
+                               Key Interests: Front-end Development (React, Flutter, Python, TypeScript), UI/UX Design (Figma, Adobe XD, Lunacy).
+                               Objective: To create digital products that positively impact people's lives, continuously enhance my skills,
+                                and learn new technologies.
+                            </p>
+                        </div>
+                    </div>
                 </section>
                 <!-- Portfolio -->
                 <section id="portfolio">
-
+                    <h2>Works and projects</h2>
+                    <div class="portfolio-content">
+                        <div class="portfolio-content-item">
+                            <h3>Biblioteca Unirovuma</h3>
+                            <p>Biblioteca Unirovuma is a web application designed to  library operations, 
+                               including book management, user registration, and borrowing processes. 
+                               It provides an intuitive interface for both librarians and users, enhancing the 
+                               overall library experience.
+                            </p>
+                            <div class="portfolio-tags">
+                                <span class="portfolio-tag">HTML</span>
+                                <span class="portfolio-tag">CSS</span>
+                                <span class="portfolio-tag">Bootstrap</span>
+                            </div>
+                            <img src="#" alt="Biblioteca Unirovuma screenshot"/>
+                        </div>                        
+                        <div class="portfolio-content-item">
+                            <h3>NutryUnir</h3>
+                            <p>NutryUnir is a mobile application aimed at promoting healthy 
+                                eating habits among university students. 
+                               It provides personalized meal plans, nutritional information, 
+                               and a platform for users to share their recipes and experiences.
+                            </p>
+                             <div class="portfolio-tags">
+                                <span class="portfolio-tag">React Native</span>
+                                <span class="portfolio-tag">TypeScript</span>
+                            </div>
+                            <img src="#" alt="NutryUnir screenshot"/>
+                        </div>
+                        <div class="portfolio-content-item">
+                            <h3>PEA-Quimica</h3>
+                            <p>PEA-Quimica is a mobile application designed to assist students in learning 
+                                chemistry concepts through interactive simulations and quizzes. It aims to 
+                                make chemistry more accessible and engaging for university students.
+                            </p>
+                            <div class="portfolio-tags">
+                                <span class="portfolio-tag">HTML</span>
+                                <span class="portfolio-tag">CSS</span>
+                                <span class="portfolio-tag">Bootstrap</span>
+                            </div>
+                            <img src="#" alt="PEA-Quimica screenshot"/>
+                        </div>
+                        
+                        <div class="portfolio-content-item">
+                            <h3>Hotel-link</h3>
+                            <p>Hotel-link is a web application designed to connect travelers with hotels 
+                                and accommodations. 
+                               It provides a user-friendly interface for searching, 
+                               booking, and managing hotel reservations, 
+                               making travel planning more convenient and efficient.
+                            </p>
+                            <div class="portfolio-tags">
+                                <span class="portfolio-tag">React</span>
+                                <span class="portfolio-tag">TypeScript</span>
+                            </div>
+                            <img src="#" alt="Hotel-link screenshot"/>
+                        </div>
+                    </div>
+                    <div class="portfolio-content-more">
+                        <a href="#" class="portfolio-more-link">See more projects on GitHub</a>
+                    </div>
+                    <div class="portfolio-video-projects">
+                        <h2>My youtube videos</h2>
+                        <h6>It's always good to know a little editing</h6>
+                        <div class="portfolio-video-list">
+                            <div class="portfolio-video-item">
+                                <h4>Stop Chasing Dreams If You’re This Weak</h4>
+                                <iframe src="https://youtu.be/jSDtu8ihivg" title="Stop Chasing Dreams If You’re This Weak" class="portfolio-video-iframe"></iframe>
+                                <a href="https://youtu.be/jSDtu8ihivg" class="portfolio-video-link">Watch Video</a>
+                            </div>
+                            <div class="portfolio-video-item">
+                                <h4>How to Kill Your Future in 90 Seconds</h4>
+                                <iframe src="https://youtu.be/J1CrNa6-3D4" title="How to Kill Your Future in 90 Seconds" class="portfolio-video-iframe"></iframe>
+                                <a href="https://youtu.be/J1CrNa6-3D4" class="portfolio-video-link">Watch Video</a>
+                            </div>
+                            <div class="portfolio-video-item">
+                                <h4>9 Táticas de Manipulação Perigosas</h4>
+                                <iframe src="https://www.youtube.com/watch?v=Y8_SL7hIboM&t=17s" title="9 Táticas de Manipulação Perigosas" class="portfolio-video-iframe"></iframe>
+                                <a href="https://www.youtube.com/watch?v=Y8_SL7hIboM&t=17s" class="portfolio-video-link">Watch Video</a>
+                            </div>
+                            <div class="portfolio-video-item">
+                                <h4>As Verdadeiras Definições de Sucesso</h4>
+                                <iframe src="https://youtu.be/Y8_SL7hIboM?si=mV3_xgNBXLatkZK6" title="As Verdadeiras Definições de Sucesso" class="portfolio-video-iframe"></iframe>
+                                <a href="https://youtu.be/Y8_SL7hIboM?si=mV3_xgNBXLatkZK6" class="portfolio-video-link">Watch Video</a>
+                            </div>
+                        </div>
+                    </div>
                 </section>
                 <!-- Skills -->
                 <section id="skills">
-
+                    <h2>Technologies and skills</h2>
+                    <div class="skills-icon">
+                        <img src="./img/HTML5.png" alt="HTML" />
+                        <img src="./img/css.png" alt="CSS" />
+                        <img src="./img/React.png" alt="React" />
+                        <img src="./img/TypeScript.png" alt="TypeScript" />
+                        <img src="./img/Javascript.png" alt="JavaScript" />
+                        <img src="./img/Figma.png" alt="Figma" />
+                        <img src="./img/git.png" alt="git" />
+                        <img src="./img/Github.png" alt="GitHub" />
+                    </div>
                 </section>
                 <!-- Career -->
                 <section id="career">
-
-                </section>
-                <!-- Referencial -->
-                <section id="referencial">
-
+                    <h2>Trajectory</h2>
+                    <div class="career-content">
+                        <div class="career-content-left">
+                            <h3>Professional Experience</h3>
+                            <h6>2021 At the moment</h6>
+                            <div class="career-content-cards">
+                                <div class="career-content-card">
+                                    <h4>Realizou estágio profissional na Escola Secundaria de Montepuez 
+                                        Cabo Delgado, como professor estagiário da 8a classe, disciplina de química.</h4>
+                                    <p>Durante o estágio, desenvolvi habilidades de ensino, 
+                                       planejamento de aulas e avaliação de alunos.
+                                       Trabalhei em estreita colaboração com professores experientes,
+                                       participando de reuniões pedagógicas e contribuindo para o ambiente escolar.
+                                    </p>
+                                    <h5 class="date-range">2023 - Present</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="career-content-right">
+                            <h3>Education</h3>
+                            <h6>2019 At the moment</h6>
+                            <div class="career-content-cards">
+                                <div class="career-content-card">
+                                    <h4>Realizou estágio profissional na Escola Secundaria de Montepuez 
+                                        Cabo Delgado, como professor estagiário da 8a classe, disciplina de química.</h4>
+                                    <p>Durante o estágio, desenvolvi habilidades de ensino, 
+                                       planejamento de aulas e avaliação de alunos.
+                                       Trabalhei em estreita colaboração com professores experientes,
+                                       participando de reuniões pedagógicas e contribuindo para o ambiente escolar.
+                                    </p>
+                                    <h5 class="date-range">2023 - Present</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </section>
                 <!-- Contacts -->
                 <section id="contacts">
-
+                    <h2>Contact</h2>
+                    <div class="contacts-content">
+                        <div class="contacts-content-left">
+                            <h3>Email</h3>
+                            <p>You can also reach me on Email:</p>
+                            <p>If you have any questions or would like to discuss potential collaborations, feel free to reach out.</p>
+                            <ul>
+                                <li>Email: <a href="mailto:eliasalbertolaquimane@gmail.com">eliasalbertolaquimane@gmail.com</a></li>
+                            </ul>
+                            <h3>WhatsApp</h3>
+                            <p>You can also reach me on WhatsApp:</p>
+                            <ul>
+                                <li>WhatsApp: <a href="https://wa.me/258861144847">+258 86 114 4847</a></li>
+                            </ul>
+                            <h3>Telegram</h3>
+                            <p>You can also reach me on Telegram:</p>
+                            <ul>
+                                <li>Telegram: <a href="https://t.me/eliaslaquimane">eliaslaquimane</a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </section>
-
              </main>
+             <footer>
+                <p>&copy; 2025 Elias Alberto Laquimane</p>
+             </footer>
         </div>
     <body>
 </html>
