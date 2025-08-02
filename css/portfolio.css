@@ -1,5 +1,81 @@
 /*
     in portfolio section:
     - will contain cards with same content projects that I worked on
-    
+    -the layout: the cards 
 */
+
+#portfolio {
+    
+}
+
+.portfolio-content {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.portfolio-content-item {
+    border: 1px solid #7b4ae2;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 15px;
+    width: calc(33.333% - 20px);
+    box-sizing: border-box;
+}
+
+.portfolio-content-item:hover {
+    transition: 0.5s ease-in-out;
+    background-color: rgba(74, 226, 112, 0.1);
+    border: 1px solid transparent;
+
+}
+
+.portfolio-content-item img {
+    max-width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.portfolio-content-item h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.portfolio-content-item p {
+    font-size: 0.9em;
+    color: #666;
+    text-align: justify;
+}
+
+.portfolio-tags {
+    padding: 10px;
+}
+
+.portfolio-tag {
+    background: #4ae28970;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.portfolio-content-more {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    
+}
+
+.portfolio-content-more a {
+    padding: 10px;
+    background-color: #7b4ae2;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.portfolio-content-more a:hover {
+    background-color: #63e24a86;
+    color: #fff;
+    transition: 0.5s ease-in-out;
+}
