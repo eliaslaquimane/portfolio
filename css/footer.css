@@ -1,0 +1,16 @@
+/* footer styles  will still center */
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer p {
+    color: #fff;
+    font-size: 14px;
+    margin: 0;
+    padding: 40px;
+}
