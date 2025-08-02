@@ -1,0 +1,34 @@
+/*
+    Stylezation to skills.css section
+    - in this section will apper the icon of 
+    technologies that I worked on
+*/
+
+#skills {
+    padding-top: 300px;
+}
+
+#skills h2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.skills-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 32px;
+    margin: 0px 0px 60px;
+    padding-bottom: 24px;
+    zoom: 90%;
+}
+
+.skills-icon img{
+    align-items: center;
+    align-content: center;
+    width: 40px;
+    padding: 15px;
+}
