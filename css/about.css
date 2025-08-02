@@ -1,3 +1,38 @@
-/*
+/*  
     -left content is the profile image
+    -right side content is description about me
 */
+
+#about {
+    display: flex;
+    flex-wrap: wrap;
+    zoom: 85%;
+}
+
+.about-content {
+    margin-top: 150px;
+    display: flex;
+}
+
+.about-content-left img {
+    align-items: flex-start;
+    width: 400px;
+    margin-top: 60px;
+}
+
+.about-content-right {
+    align-items: flex-end;
+    width: 700px;
+    padding: 20px;
+}
+
+.about-content-right p {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+    color: rgb(255, 255, 255);
+    opacity: .5;
+    text-align: justify;
+}

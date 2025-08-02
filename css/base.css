@@ -8,7 +8,6 @@ html body {
     background-color: #090E16;
     color: #fff;
     font-family: Raleway, sans-serif;
-    display: flex;
 }
 
 .container {
@@ -21,7 +20,6 @@ html body {
 
 .root {
     background-color: #0C0F17 #7b4ae2;
-    width: 100hv;
 }
 
 main {
@@ -32,7 +30,7 @@ main {
 
 section {
     height: 100vh;
-    margin-bottom: 140px;
+    margin-bottom: 280px;
 }
 
 h1 {
