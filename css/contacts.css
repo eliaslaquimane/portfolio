@@ -1,0 +1,58 @@
+/*
+    Stylezation to career.css section
+    - in this section will apper my contact,
+    - email, telegram and my whatsApp
+*/
+
+#contacts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 64px;
+    margin-bottom: 140px;
+}
+
+#contacts h2 {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    margin: 0px;
+    color: rgb(255, 255, 255);
+}
+
+.contacts-contents {
+    background-color: rgba(161, 161, 168, 0.575);
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.contacts-content {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.contacts-content h3 {
+    font-size: 28px;
+    line-height: 44px;
+    color: rgb(255, 255, 255);
+}
+
+.contacts-content a {
+    font-size: 20px;
+    line-height: 30px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.contacts-content a:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+}
