@@ -5,7 +5,7 @@ UI/UX design, and digital solutions with social impact. This site showcases my p
 
 ---
 
-## 🌍 About Me
+## 🌍 About Me -
 
 - 🎓 University student and junior researcher in chemistry and food science data.
 - 💻 Developer focused on React Native, Angular, HTML5, Bootstrap, and Adobe XD prototyping.
