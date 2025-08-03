@@ -18,8 +18,8 @@
 
 .about-content-left img {
     align-items: flex-start;
-    width: 400px;
-    margin-top: 60px;
+    width: 100%;
+    margin-top: 80px;
 }
 
 .about-content-right {
@@ -41,24 +41,19 @@
 
 /* media queries */
 
-@media (max-width: 768px) {
-    #about {
-        flex-direction: column;
-        align-items: center;
-    }
 
-    .about-content {
-        flex-direction: column;
-        align-items: center;
-    }
+/* portrait */
+@media (orientation: portrait) {
 
-    .about-content-left img {
-        width: 300px;
-        margin-top: 20px;
-    }
+/* centralize .social-media  */
 
-    .about-content-right {
-        width: 100%;
-        text-align: center;
-    }
+.social-media  {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.home-content-right {
+    width: 100px;
+}
 }
