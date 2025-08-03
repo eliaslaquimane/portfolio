@@ -21,7 +21,6 @@
     justify-content: center;
     width: 100%;
     gap: 64px;
-    margin: 64px 0px 0px;
 }
 
 .career-content-left {
@@ -29,7 +28,6 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 100%;
 }
 
 .career-content-right {
@@ -68,7 +66,7 @@
     color: rgba(255, 255, 255, 0.5);
 }
 
-/* media queries */
+/* media queries all screens */
 @media (max-width: 768px) {
     #career {
         flex-direction: column;
@@ -95,3 +93,4 @@
         margin: 10px auto;
     }
 }
+
