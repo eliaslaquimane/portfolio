@@ -6,7 +6,9 @@
 #about {
     display: flex;
     flex-wrap: wrap;
-    zoom: 85%;
+    justify-content: center;
+    padding: 40px 20px;
+    gap: 40px;
 }
 
 .about-content {
