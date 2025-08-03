@@ -44,3 +44,6 @@ a:hover {
 
 /* media queries nav desapear on mobile mode*/
 
+@media (max-width: 768px) {
+    
+}
