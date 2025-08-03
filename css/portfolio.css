@@ -75,3 +75,20 @@
     color: #fff;
     transition: 0.5s ease-in-out;
 }
+
+
+/* media queries wrap */
+@media (max-width: 768px) {
+    .portfolio-content-item {
+        width: calc(100% - 20px);
+    }
+
+    .portfolio-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .portfolio-content-item {
+        margin: 10px auto;
+    }
+}

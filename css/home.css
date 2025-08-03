@@ -114,3 +114,45 @@
     font-weight: 700;
     color: rgb(123, 74, 226);
 }
+
+/* media queries 
+    responsive design for home section
+    -flex-direction: column for small screens
+    -align-items: center for small screens
+    -img-avatar size is reduced for small screens
+    -home-content-right width is 100% for small screens
+    -social-media is centered for small screens
+*/
+
+@media (max-width: 768px) {
+    .home-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home-content-left {
+        width: 100%;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .img-avatar {
+        width: 250px;
+        height: 250px;
+        padding: 50px;
+    }
+
+    .home-content-right {
+        width: 100%;
+        align-items: center;
+    }
+
+    .social-media {
+        justify-content: center;
+    }
+
+    .home-content-overview-bottom {
+        flex-direction: column;
+        align-items: center;
+    }
+}

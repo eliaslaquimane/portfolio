@@ -67,3 +67,31 @@
     line-height: 19px;
     color: rgba(255, 255, 255, 0.5);
 }
+
+/* media queries */
+@media (max-width: 768px) {
+    #career {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .career-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .career-content-left,
+    .career-content-right {
+        width: 100%;
+    }
+
+    .career-content-cards {
+        width: 100%;
+        gap: 20px;
+    }
+
+    .career-content-card {
+        width: calc(100% - 40px);
+        margin: 10px auto;
+    }
+}
