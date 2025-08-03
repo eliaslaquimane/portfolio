@@ -33,7 +33,21 @@
     padding: 15px;
 }
 
-/* media queries */
-@media screen {
+/* media queries wrap all images on mobile mode */
+@media (max-width: 768px) {
+    #skills h2 {
+        font-size: 32px;
+        padding: 10px;
+    }
+
+    .skills-icon {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills-icon img {
+        width: 60px;
+        padding: 10px;
+    }
     
 }
