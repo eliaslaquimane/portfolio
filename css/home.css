@@ -171,6 +171,15 @@
   body {
     border: 5px solid green;
   }
+  /* putting on center the content */
+  .home-content-left {
+    width: 100%;
+  }
+ .name-and-title {
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+}
 }
 
 /* landscape */
