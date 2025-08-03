@@ -4,64 +4,61 @@
 */
 
 header {
-    display: flex;
     position: fixed;
-    background-color: #090E16;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 70px;
+    background-color: #090E16;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 
 nav {
     width: 100%;
-    margin: 0 auto;
-    margin-top: 30px;
+    max-width: 1200px;
+    padding: 0 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 ul {
     display: flex;
+    gap: 32px;
     padding: 12px 24px;
     background: rgba(123, 74, 226, 0.15);
     border-radius: 16px;
+    backdrop-filter: blur(6px);
 }
 
 ul li {
-    text-align: center;
     list-style: none;
-    margin: 0 auto;
 }
 
-a {
+ul li a {
     color: #fff;
     text-decoration: none;
     font-weight: 600;
-    font-size: 13px;
-    transition: color 0.3s ease;
+    font-size: 14px;
+    padding: 6px 12px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
 }
 
-a:hover {
+ul li a:hover {
     color: #7b4ae2;
+    background-color: rgba(255, 255, 255, 0.05);
 }
 
 /* media queries nav desapear on mobile mode*/
 
 @media (max-width: 768px) {
     header {
-        position: relative;
-        height: auto;
-        display: none;
+        display: none; 
     }
 
-    nav {
-        width: 100%;
-        padding: 10px;
-    }
-
-    ul {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    ul li {
-        margin: 10px 0;
-    }
 }
